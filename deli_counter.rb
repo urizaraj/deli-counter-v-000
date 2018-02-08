@@ -1,6 +1,6 @@
 def line(deli)
   if deli.size > 0
-    puts "The line is currently: "
+    print "The line is currently: "
     deli.each_with_index do |name, i|
       print "#{i + 1}. #{name} "
     end
