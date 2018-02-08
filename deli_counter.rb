@@ -1,7 +1,11 @@
 def line(deli)
-  puts "The line is currently: "
-  deli.each_with_index do |name, i|
-    print "#{i + 1}. #{name} "
+  if deli.size > 0
+    puts "The line is currently: "
+    deli.each_with_index do |name, i|
+      print "#{i + 1}. #{name} "
+    end
+  else
+    "The line is currently empty."
   end
 end
 
