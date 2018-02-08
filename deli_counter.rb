@@ -5,7 +5,7 @@ def line(deli)
       print "#{i + 1}. #{name} "
     end
   else
-    "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
