@@ -2,6 +2,7 @@ def line(deli)
   puts "The line is currently: "
   deli.each_with_index do |name, i|
     print "#{i + 1}. #{name} "
+  end
 end
 
 def take_number(deli, name)
