@@ -1,9 +1,10 @@
 def line(deli)
+
 end
 
 def take_number(deli, name)
   deli.push(name)
-  deli.size
+  "Welcome, #{name}. You are number #{deli.size} in line."
 end
 
 def now_serving(deli)
