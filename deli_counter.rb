@@ -4,6 +4,7 @@ def line(deli)
     deli.each_with_index do |name, i|
       string += "#{i + 1}. #{name} "
     end
+    puts string
   else
     puts "The line is currently empty."
   end
